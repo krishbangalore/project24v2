@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+  <html lang="">
+    <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Matter JS BoilerPlate</title>
+      <style> body {padding: 0; margin: 0;} </style>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.min.js"></script>
+      <script src="p5.play.js"></script>
+      <script src="paper.js"></script>
+      <script src="dustbin.js"></script>
+      <script src="ground.js"></script> 
+      <script src="sketch.js"></script>
+
+    </head>
+    <body>
+    <b>  krish's first form  </b><br>
+    <i>courtesy of father</i>
+    <form id = 'K1'>
+       <input type="button" id=b1 value='trash in ' onclick="Matter.Body.applyForce(paper1.body,paper1.body.position,{x:85,y:-200})">
+       <input type= "button" id =b2 value = "trash out" onclick= "Matter.Body.applyForce(paper1.body,paper1.body.position,{x:-85,y:-200})">
+
+      </form>
+    </body>
+  </html>
